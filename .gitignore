@@ -1,2 +1,22 @@
+# ChatLocal development artifacts and local secrets
 node_modules/
+dist/
+build/
+coverage/
+.DS_Store
+.env
+.env.*
+!.env.example
 *.log
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*.token
+.local/
+local-state/
+diagnostics/
+test-results/
+DerivedData/
+.swiftpm/
+.build/

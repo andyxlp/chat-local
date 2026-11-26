@@ -1,0 +1,3 @@
+# Inert original Easy MCP reference
+
+This directory preserves original upstream Easy MCP v2.3.1 files from commit 2c94bed8be2594b0759e9bee04b62b205c564fe4. Files are stored as .txt intentionally, for source inspection and feature comparison only. Do not execute them, rename them into executable entrypoints, use them for public deployment or import their vulnerable auth flow. The original source includes a known unauthenticated OAuth authorization issue, unsafe shell assumptions, and automatic tunnel binary download. It is not a ChatLocal implementation. Original MIT license is retained at repository root. The original Git history remains available. No reference file should enter an installer or runtime package.
